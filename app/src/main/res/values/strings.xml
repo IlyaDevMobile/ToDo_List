@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ToDo List</string>
+    <string name="create">Создать</string>
+    <string name="messsage">Введите текст</string>
+    <string name="messaage">Текст</string>
+    <string name="low_priority">Низкий приоритет</string>
+    <string name="midl_priority">Средняя приоритетность</string>
+    <string name="high_priority">Высокий приоритет</string>
+</resources>
