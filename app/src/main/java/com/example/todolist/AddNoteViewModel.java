@@ -28,7 +28,7 @@ public class AddNoteViewModel extends AndroidViewModel {
             @Override
             public void run() {
                 notesDao.add(note);
-                shoudCloseScreen.postValue( true);
+                shoudCloseScreen.postValue(true);
 
             }
         });
