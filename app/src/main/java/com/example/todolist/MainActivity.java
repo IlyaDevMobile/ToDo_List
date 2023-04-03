@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
                         int position = viewHolder.getAdapterPosition();
                         Note note = notesAdapter.getNotes().get(position);
-                        viewModel.romeve(note);
+                        viewModel.remove(note);
                     }
                 });
         itemTouchHelper.attachToRecyclerView(recycleViewNotes);
